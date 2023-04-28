@@ -7,7 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="css/styles/style-all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,15 +20,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="page1.css">
     <link rel="stylesheet" href="page1_media.css">
+
+
+
+
 </head>
 
 <body>
 
+    <!-- <div class="img3"><img src="img/Vector21.png" alt="img"></div> -->
+
     <header>
-        <div class="container">
+        <div class="container1">
             <nav>
                 <img src="img/logo.svg" alt="logo">
 
@@ -47,7 +59,7 @@
         </div>
 
         <article>
-            <div class="container">
+            <div class="container1">
                 <h1>Академия визуальных <br> коммуникаций — RE:DESIGN</h1>
 
                 <ul>
@@ -95,7 +107,7 @@
     </header>
 
     <main>
-        <div class="container">
+        <div class="container1">
 
             <h1>Наши программы</h1>
 
@@ -136,165 +148,538 @@
 
                 <img src="img/Mask.png" alt="img">
 
+                <div class="row">
+                    <div class="col-4">
+                        <div id="list-example" class="list-group">
+                            <a class="list-group-item list-group-item-action" href="#list-item-1">
+                                <h4>Design KIDS</h4>
+                            </a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-2">
+                                <h4>Design JUNIOR</h4>
+                            </a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-3">
+                                <h4>DESIGN MEDIUM</h4>
+                            </a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-4">
+                                <h4>Design College PRO</h4>
+                            </a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-3">
+                                <h4>College Art</h4>
+                            </a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-4">
+                                <h4>Онлайн курс Design START</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
+            <div class="form">
+                <h2>Не можете определиться <br>
+                    с выбором программы?</h2>
+
+                <p>Заполните форму и мы свяжемся удобным для вас способом.</p>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <p>Ваше имя</p>
+                        </label>
+                        <input type="email" class="form-control" placeholder="Никита" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">
+                            <p>Контактные данные</p>
+                        </label>
+                        <input type="password" class="form-control" placeholder="+375" id="exampleInputPassword1">
+                    </div>
+
+                </form>
+
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </div>
+
+            <div class="review">
+                <h1>Отзывы наших клиентов</h1>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="car">
+                                <div class="card">
+                                    <p>Отзыв на "Академия визуальных коммуникаций "REdesign""</p>
+                                    <p>20.10.2021 19:24 // Ольга А</p>
+                                    <div class="p-scroll">
+                                        <p>Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и
+                                            Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и </p>
+                                    </div>
+                                    <a href="#"><img src="img/otzivi.png" alt="img"></a>
+                                </div>
+                                <div class="card">
+                                    <strong>Melnikov A.</strong>
+                                    <p>Знаток города 3 уровня</p>
+                                    <p>18 октября 2021</p>
+                                    <p>По итогам двух месяцев занятий дочь очень довольна. Спасибо.</p>
+                                    <a href="#"><img src="img/yandex.png" alt="img"></a>
+                                </div>
+                                <div class="card">
+                                    <strong>Андрей</strong>
+                                    <p>13 Сентября 2022</p>
+                                    <div class="p-scroll">
+                                        <p>Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и
+                                            Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и </p>
+                                    </div>
+                                    <a href="#"><img src="img/relax.png" alt="img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="car">
+                                <div class="card">
+                                    <p>Отзыв на "Академия визуальных коммуникаций "REdesign""</p>
+                                    <p>20.10.2021 19:24 // Ольга А</p>
+                                    <div class="p-scroll">
+                                        <p>Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и
+                                            Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и </p>
+                                    </div>
+                                    <a href="#"><img src="img/otzivi.png" alt="img"></a>
+                                </div>
+                                <div class="card">
+                                    <strong>Melnikov A.</strong>
+                                    <p>Знаток города 3 уровня</p>
+                                    <p>18 октября 2021</p>
+                                    <p>По итогам двух месяцев занятий дочь очень довольна. Спасибо.</p>
+                                    <a href="#"><img src="img/yandex.png" alt="img"></a>
+                                </div>
+                                <div class="card">
+                                    <strong>Андрей</strong>
+                                    <p>13 Сентября 2022</p>
+                                    <div class="p-scroll">
+                                        <p>Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и
+                                            Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и </p>
+                                    </div>
+                                    <a href="#"><img src="img/relax.png" alt="img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="car">
+                                <div class="card">
+                                    <p>Отзыв на "Академия визуальных коммуникаций "REdesign""</p>
+                                    <p>20.10.2021 19:24 // Ольга А</p>
+                                    <div class="p-scroll">
+                                        <p>Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и
+                                            Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и </p>
+                                    </div>
+                                    <a href="#"><img src="img/otzivi.png" alt="img"></a>
+                                </div>
+                                <div class="card">
+                                    <strong>Melnikov A.</strong>
+                                    <p>Знаток города 3 уровня</p>
+                                    <p>18 октября 2021</p>
+                                    <p>По итогам двух месяцев занятий дочь очень довольна. Спасибо.</p>
+                                    <a href="#"><img src="img/yandex.png" alt="img"></a>
+                                </div>
+                                <div class="card">
+                                    <strong>Андрей</strong>
+                                    <p>13 Сентября 2022</p>
+                                    <div class="p-scroll">
+                                        <p>Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и
+                                            Академия визуальных коммуникаций "REdesign" для нашей
+                                            семьи была открытием. Ребёнок самостоятельно отказался
+                                            от игр на телефоне и соц сетей и переключился на
+                                            творческий процесс. Спасибо команде педагогов и
+                                            организаторов за горящие глаза ребенка, за мотивацию и </p>
+                                    </div>
+                                    <a href="#"><img src="img/relax.png" alt="img"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" id="indicator" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" id="indicator"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" id="indicator"></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="block-6">
+
+                <h1>
+                    Преподаватели и кураторы
+                </h1>
+
+                <div class="img1"><img src="img/Vector19.png" alt="img"></div>
+                <div class="img2"><img src="img/Vector20.png" alt="img"></div>
+
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="car">
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Alexandr.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Alexandra.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Anastasia.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Anita.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="car">
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Alexandr.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Alexandra.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Anastasia.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Anita.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="car">
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Alexandr.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Alexandra.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Anastasia.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                                <div class="card2">
+                                    <div class="kurator">
+                                        <img src="img/Anita.png" alt="">
+                                    </div>
+                                    <div class="name-kurator">
+                                        <h5>Александр Ковширко</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button> -->
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" id="indicator" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" id="indicator"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" id="indicator"></button>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <h2>Записаться на бесплатное <br>
+                        занятие</h2>
+
+                    <p>Оставьте предварительную заявку и мы свяжемся с вами для записи на пробное занятие.</p>
+
+
+
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </div>
+
+            </div>
+
+            <div class="block-7">
+                <div class="container1">
+                    <h1>
+                        Почему выбирают нас
+                    </h1>
+                    <div>
+                        <ul>
+                            <li>
+                                <h4>Качество</h4>
+                                <p>
+                                    Образовательные программы Академии выстроены при содействии экспертов- практиков в
+                                    сфере
+                                    дизайна.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Профессионализм</h4>
+                                <p>
+                                    Наша академия — это не курсы, а полноценное учебное заведение со своими программами
+                                    и
+                                    образовательной траекторией в области дизайна с выходом на профессию.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Портфолио</h4>
+                                <p>
+                                    Ваше портфолио после окончания обучения поможет вам получить работу в ведущих
+                                    компаниях
+                                    и
+                                    дизайн-бюро.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Удобные форматы занятий</h4>
+                                <p>
+                                    Обучение может проходить как в будние так и по выходным, в вечернее или дневное
+                                    время.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Нетворкинг</h4>
+                                <p>
+                                    Обучение в академии дает возможность познакомиться с интересными, талантливыми
+                                    ребятами,
+                                    экспертами в индустрии дизайна, будущими коллегами, партнерами
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Оборудование</h4>
+                                <p>
+                                    Мы оборудовали современные аудитории, компьютерное и проекционное оборудование,
+                                    профессиональная библиотека.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>
+                                    Практика
+                                </h4>
+                                <p>
+                                    Мы сделали упор на практические знания, чтобы сформировать у студента навыки,
+                                    которые
+                                    помогут
+                                    получить востребованную профессию в сфере дизайна.
+                                </p>
+                            </li>
+                            <li><img src="img/re.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-8">
+                <div class="container">
+                    <h2>
+                        Вам понравился наш проект?
+                    </h2>
+                    <p>
+                        Мы готовы обсудить открытие Академии дизайна в вашем городе.
+                    </p>
+                    <form action="">
+                        <input type="name" placeholder="Ваше имя"><br>
+                        <input type="name" placeholder="Номер телефона"><br>
+                        <input type="name" placeholder="E-mail"><br>
+                        <button>Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <ul class="social">
+                    <li><a href="#"><img src="img/social/instagramm.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social/facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social/vk.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social/youtube.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social/tic-toc.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social/klass.svg" alt=""></a></li>
+                </ul>
+                <div class="footer-info">
+                    <div class="info-for-our">
+                        <h4>
+                            О нас
+                        </h4>
+                        <p>
+                            Академия визуальных коммуникаций RE:DESIGN — первое в Беларуси частное учебное заведение с
+                            комплексным образованием в сфере дизайна для детей и взрослых.
+                        </p>
+                    </div>
+                    <div class="footer-menu">
+                        <h4>Меню</h4>
+                        <p>Главаня</p>
+                        <p>Куда поступать на дизайн</p>
+                        <p>Центр карьеры</p>
+                        <p>Блог</p>
+                        <p>Контакты</p>
+                        <p>Оплата</p>
+                    </div>
+                    <div class="footer-programms">
+                        <h4>Программы</h4>
+                        <p>Программа для детей и подростков</p>
+                        <p>Программа для взрослых</p>
+                        <p>Онлайн обучение</p>
+                        <p>Программы на каникулах</p>
+                    </div>
+                    <div class="footer-contacts">
+                        <h4>контакты</h4>
+
+                        <h5>Адрес</h5>
+                        <p><img src="img/contacts/coolicon.svg" alt=""> г.Минск. пр, Независимости, 58В, офис 106</p>
+
+                        <h5>Телефон</h5>
+                        <p><img src="img/contacts/noun_Mail.svg" alt="">А1: +375 29 66 00 452</p>
+                        <p>МТС: +375 33 66 00 452</p>
+
+                        <h5>Email</h5>
+                        <p><img src="img/contacts/phone.svg" alt="">manager@re-design.by</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
-
-    <!-- <div class="block-backgorund-1">
-
-        <img src="img/Vector 19.png" style="position: absolute;
-                z-index: -1;
-                top: 40px" alt="">
-        <img src="img/Vector 21.png" style="position: absolute;
-                z-index: -1;
-                top: 96px" alt="">
-
-
-
-
-        <div class="block-1">
-            <div class="container">
-                <div class="logo-adapt"><img src="img/logo.svg" alt="logo"></div>
-                <div class="header">
-                    <div class="logo"><img src="img/logo.svg" alt="logo"></div>
-                    <ul class="header-menu">
-                        <li><a href="">Программы</a></li>
-                        <li><a href="">Куда поступать на дизайн</a></li>
-                        <li><a href="">Центр карьеры</a></li>
-                        <li><a href="">Контакты</a></li>
-                    </ul>
-                    <button><img src="img/man.svg" alt="man-icon"> Войти</button>
-                </div>
-                <h1>
-                    Академия Визуальных коммуникаций — RE:DESIGN
-                </h1>
-                <div class="relative">
-
-                    <ul>
-                        <button><a href="#">
-                                <h5>Программа для детей и подростков</h5>
-                            </a></button>
-                        <li><img src="img/Rectangle-rotate.png" alt=""></li>
-                        <button><a href="#">
-                                <h5>Программа для детей и подростков</h5>
-                            </a></button>
-                        <li><img src="img/Rectangle-rotate.png" alt=""></li>
-                        <li><img src="img/Rectangle-rotate.png" alt=""></li>
-                        <li><img src="img/Rectangle-rotate.png" alt=""></li>
-                    </ul> -->
-    <!-- <ul class="info-list">
-
-
-                            <li>
-                                <!-- <img src="img/Rectangle-rotate.png" alt=""> -->
-    <!-- <a href="#">
-                                    <h5>Программа для детей и подростков</h5>
-                                </a> -->
-    <!-- </li>
-                            <li><a href="#">
-                                    <h5>Онлайн - обучение</h5>
-                                </a></li>
-                            <li><a href="#">
-                                    <h5>Программа для взрослых</h5>
-                                </a></li>
-                            <li><a href="#">
-                                    <h5>Программы на каникулах</h5>
-                                </a></li> -->
-    <!-- </ul> -->
-    <!-- </div>
-                <div class="info">
-                    <button>
-                        Узнать больше
-                    </button>
-                </div>
-
-            </div>
-        </div>
-        <div class="block-2">
-            <div class="container">
-                <h2>
-                    Наши программы
-                </h2>
-                <div class="our-programm-3-adapt"> --> -->
-    <!--                <ul>-->
-    <!--                    <li>Design KIDS</li>-->
-    <!--                    <li>Design JUNIOR</li>-->
-    <!--                    <li>DESIGN MEDIUM</li>-->
-    <!--                    <li>Design College PRO</li>-->
-    <!--                    <li>College Art</li>-->
-    <!--                    <li>Онлайн курс Design START</li>-->
-    <!--                </ul>-->
-    <!-- </div>
-                <div class="our-programm">
-                    <div class="our-programm-1">
-                        <div>
-                            <h3>College Art</h3>
-                            <h4>Для учеников 8,9 и 10 классов</h4>
-                            <h4>Начало заянятий</h4>
-                            <p>Сентябрь 2023</p>
-                        </div>
-                        <div>
-                            <h4>Продолжительность</h4>
-                            <p>18 месяцев</p>
-                        </div>
-                        <div>
-                            <h4>Форма обучения</h4>
-                            <p>Очная</p>
-                            <br>
-                            <p>
-                                Занятия проходят один раз в неделю в будние или выходные дни
-                            </p>
-                        </div>
-                        <div class="more-details">
-                            <button><a href="">Подробнее</a> </button>
-                        </div>
-                    </div>
-                    <div class="our-programm-2">
-                        <img src="img/student.png" alt="girl-sudent" width="520p" height="560">
-                    </div>
-                    <div class="our-programm-3">
-                        <ul>
-                            <li>Design KIDS</li>
-                            <li>Design JUNIOR</li>
-                            <li>DESIGN MEDIUM</li>
-                            <li>Design College PRO</li>
-                            <li>College Art</li>
-                            <li>Онлайн курс Design START</li> -->
-    <!-- </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="block-3">
-            <div class="container">
-                <h2>Не можете определиться с выбором программы?</h2>
-                <p>Заполните форму и мы свяжемся удобным для вас способом</p>
-                <form action="">
-                    <div class="data">
-                        <input type="name" placeholder="Ваше имя">
-                        <input type="tel" placeholder="Контактные данные">
-                    </div>
-                    <div class="send">
-                        <button>
-                            Отправить
-                        </button>
-                    </div>
-
-
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="otzivi">
-        <h1>Отзывы наших клиентов</h1>
-    </div> -->
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

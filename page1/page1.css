@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 1680px;
+.body{
+    overflow-x: hidden;
+    background-image: url(img/Vector21.png);
+}
+
+.container1 {
+  max-width: 1720px;
   margin: 0 auto;
   position: relative;
+  --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
 }
 
 header {
@@ -31,6 +38,7 @@ p {
   line-height: 100%;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.6);
+  margin: 0%;
 }
 
 h1 {
@@ -43,6 +51,16 @@ h1 {
   color: #ffffff;
 }
 
+h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 120%;
+text-align: center;
+color: #2B2C54;
+}
+
 h3{
     font-family: 'Montserrat';
 font-style: normal;
@@ -50,6 +68,16 @@ font-weight: 600;
 font-size: 32px;
 line-height: 120%;
 color: #2B2C54;
+}
+
+h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+color: rgba(43, 44, 84, 0.7);
+margin: 0%;
 }
 
 h5 {
@@ -94,6 +122,9 @@ nav ul {
   padding: 35px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
+  padding: 0;
+    padding-top: 35px;
 }
 nav button {
   color: #f6f4fe;
@@ -113,18 +144,22 @@ nav button {
 }
 nav button img {
   padding: 0px 5px 0 40px;
-  margin: 0px 0 -3px 0px;
+  margin: 0px;
 }
 
 article h1{
     margin-top: 152px;
     margin-bottom: 80px;
+    background: url(img/Mask2.png) no-repeat center;
+    background-size: 275.63px;
 }
 
 article ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 article a{
@@ -164,6 +199,7 @@ cursor: pointer;
 border: 1px solid #6743EF;
 box-shadow: 0px 4px 0px #6743EF, 0px 4px 30px rgba(128, 98, 242, 0.6);
 border-radius: 100px;
+margin: 0;
 }
 
 /* main */
@@ -194,6 +230,7 @@ main ul li{
 
 .main-container{
     display: flex;
+    justify-content: space-between;
 }
 
 .main-container button{
@@ -203,6 +240,21 @@ background: #9981F5;
 border: 1px solid #6743EF;
 box-shadow: 0px 4px 0px #6743EF, 0px 4px 30px rgba(128, 98, 242, 0.6);
 border-radius: 100px;
+
+}
+
+.main-container button:hover{
+    background-color: #0b5ed7;
+    transition: 0.5s;
+}
+
+.info button:hover{
+    background-color: #0b5ed7;
+    transition: 0.5s;
+}
+
+.main-container button p{
+    color: #FFFFFF;
 }
 
 .main-container a{
@@ -213,6 +265,271 @@ border-radius: 100px;
 .main-container p{
     text-decoration: none;
 }
+
+.main-container ul{
+    margin: 0;
+    padding: 0%;
+}
+
+.row {
+    margin: 0%;
+    
+}
+
+.col-4{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.list-group a{
+    color: black;
+    padding: 30px;
+    
+}
+
+.list-group-item:first-child{
+    border-radius: 0;
+}
+
+.list-group-item:hover{
+    background: #6743EF;
+box-shadow: 0px 0px 20px rgba(153, 129, 245, 0.5);
+color: #FFFFFF;
+}
+
+.list-group a :hover{
+color: #FFFFFF;
+}
+
+.list-group{
+    width: 540px;
+    display: flex;
+    gap: 10px;
+}
+
+/* form */
+
+.form{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.form-control{
+    width: 397px;
+    height: 60px;
+    border: 1px solid #B5A4F8;
+    border-radius: 40px;
+    padding: 19px;
+}
+
+.form p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form h2{
+    margin-bottom: 20px;
+}
+
+.mb-3{
+    margin: 0;
+    position: relative;
+}
+
+.mb-3 p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: rgba(43, 44, 84, 0.7);
+margin: 0;
+position: absolute;
+    top: 14px;
+    background-color: white;
+    left: 20px;
+}
+
+.form button{
+    margin-top: 20px;
+    width: 198px;
+height: 60px;
+background: #9981F5;
+border: 1px solid #6743EF;
+box-shadow: 0px 4px 0px #6743EF, 0px 4px 30px rgba(128, 98, 242, 0.6);
+border-radius: 100px;
+}
+
+/* reviews */
+
+.review h1{
+margin-top: 143px;
+margin-bottom: 50px;
+}
+
+.card{
+    width: 540px;
+height: 260px;
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+gap: 15px;
+position: relative;
+padding: 30px 16px;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+border: none;
+}
+
+.card p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0.05em;
+color: rgba(43, 44, 84, 0.7);
+}
+
+.p-scroll{
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.card img{
+    position: absolute;
+    bottom: 16px;
+    left: 30px;
+}
+
+.card{
+    position: relative;
+}
+
+.carousel-indicators{
+    position: relative;
+    margin-top: 30px;
+}
+.car{
+    display: flex;
+    gap: 30px;
+}
+.carousel-control-prev{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #6743EF;
+    box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+    border-radius: 50px;
+    position: absolute;
+    left: 440px;
+    top: 310px;
+}
+.carousel-control-next{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #6743EF;
+    box-shadow: 0px 3px 0px #6743ef;
+    border-radius: 50px;
+    position: absolute;
+    right: 440px;
+    top: 310px;
+
+}
+
+.carousel-control-next-icon{
+    background-image: url(img/right.png);
+    background-size: 50%;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(img/left.png);
+    background-size: 50%;
+}
+
+.carousel-indicators .active{
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(43, 44, 84, 0.2);
+    border-radius: 12px;
+    background: #8062F2;
+}
+
+#indicator{
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(43, 44, 84, 0.2);
+    border-radius: 12px;
+}
+.carousel-inner{
+    padding: 20px;
+}
+
+
+
+/* block-6 */
+
+.block-6{
+    margin-top: 140px;
+position: relative;
+/* background-image: url(img/Vector21.png); */
+}
+
+.img1{
+    position: absolute;
+    left: 428px;
+    top: 249px;
+}
+.img2{
+    position: absolute;
+    top: 249px;
+}
+
+.img3{
+    position: absolute;
+    top: 2510px;
+    z-index: -1;
+    left: 603px;
+}
+
+.card2{
+    width: 398px;
+height: 510px;
+flex-direction: column;
+gap: 15px;
+position: relative;
+padding: 30px 16px;
+border: none;
+padding: 0%;
+}
+
+.card2 img{
+    display: block;
+  margin: 0 auto;
+}
+
+.name-kurator{
+    width: 398px;
+    height: 90px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+border: none;
+padding: 30px;
+background-color: white;
+}
+/* .carousel-item{
+    display: flex;
+} */
+
+/* .carousel-item.active {
+    display: flex;
+} */
+
+
+
+
 
 /* .buttons-img{
     position: absolute;
@@ -327,7 +644,6 @@ ul li {
   border-bottom: 5px solid;
   border-color: #7656f1;
   color: #f6f4fe;
-  margin: 50px 0 0 0;
 }
 .info-list {
   display: flex;
@@ -556,7 +872,7 @@ form button {
   color: #6b6b87;
   margin: 0 auto;
   text-align: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .block-6 .application {
   text-align: center;
@@ -574,10 +890,21 @@ form button {
   border-color: #7656f1;
   color: #f6f4fe;
 }
-.block-7 h2 {
+
+.block-8 form{
+    display: block;
+}
+
+.block-7{
+    background-image: url(img/block2.jpg);
+    background-repeat: no-repeat;
+}
+.block-7 h1 {
   margin-top: 145px;
-  background: url("../../img/G.svg") no-repeat 730px 0;
-  background-size: 340px;
+  background: url("img/Mask2.png") no-repeat center;
+  background-size: 275.63px;
+  height: 82px;
+  width: 100%;
 }
 .block-7 ul {
   max-width: 1260px;
@@ -586,37 +913,49 @@ form button {
   justify-content: space-between;
   margin-top: 50px;
   flex-wrap: wrap;
+  padding: 0;
 }
 .block-7 ul li {
   width: 398px;
-  padding: 0 25px;
+  padding: 0 ;
   margin-top: 40px;
+}
+
+.block-7 h1{
+    margin-bottom: 0;
 }
 .block-7 h4 {
   font-size: 24px;
   padding-top: 100px;
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #2B2C54;
+    margin-bottom: 15px;
 }
 .block-7 ul li:nth-child(1) {
-  background: url("../../img/star.svg") no-repeat;
+  background: url("img/star.png") no-repeat;
 }
 .block-7 ul li:nth-child(2) {
-  background: url("../../img/cap.svg") no-repeat;
+  background: url("img/het.png") no-repeat;
 }
 .block-7 ul li:nth-child(3) {
-  background: url("../../img/book.svg") no-repeat;
+  background: url("img/book.png") no-repeat;
 }
 
 .block-7 ul li:nth-child(4) {
-  background: url("../../img/calendar.svg") no-repeat;
+  background: url("img/blok.png") no-repeat;
 }
 .block-7 ul li:nth-child(5) {
-  background: url("../../img/social.svg") no-repeat;
+  background: url("img/peopl.png") no-repeat;
 }
 .block-7 ul li:nth-child(6) {
-  background: url("../../img/devices.svg") no-repeat;
+  background: url("img/pk.png") no-repeat;
 }
 .block-7 ul li:nth-child(7) {
-  background: url(../../img/bulb.svg) no-repeat;
+  background: url('img/lamp.png') no-repeat;
 }
 .block-7 ul li:nth-child(8) {
   width: 540px;
@@ -634,7 +973,7 @@ form button {
 .block-8 h2 {
   font-size: 42px;
   padding: 20px 0;
-  background: url("../../img/check.svg") no-repeat 400px 10px;
+  background: url("img/Mask3.png") no-repeat 185px 10px;
 }
 .block-8 p {
   text-align: center;
@@ -646,24 +985,24 @@ form button {
   text-align: center;
 }
 .block-8 input {
-  border-radius: 40px;
-  border: 1px solid #dfdfe5;
+    width: 540px;
+    height: 60px;
+    border: 1px solid #B5A4F8;
+    border-radius: 40px;
   padding: 21px 349px 21px 20px;
   transition-duration: 0.3s;
   margin-bottom: 15px;
 }
 .block-8 button {
-  background: #a38ef6;
-  font-size: 20px;
-  padding: 20px 50px 20px 50px;
-  border-radius: 100px;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-left: 1px solid;
-  border-bottom: 5px solid;
-  border-color: #7656f1;
+  width: 198px;
+    height: 60px;
+    background: #9981F5;
+    border: 1px solid #6743EF;
+    box-shadow: 0px 4px 0px #6743ef, 0px 4px 30px rgb(128 98 242 / 60%);
+    border-radius: 100px;
   color: #f6f4fe;
   margin: 30px 0 0 0;
+  padding: 0%;
 }
 .block-9 {
   height: 620px;
@@ -679,9 +1018,12 @@ form button {
 }
 
 .footer {
-  background: #595ba9;
-  padding: 85px 0 110px 0;
-  margin-top: 60px;
+  background-image: url(img/Rectangle33.png);
+  
+  padding: 85px 0 0 0;
+  background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .footer h5 {
