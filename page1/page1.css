@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   max-width: 1920px;
   margin: 0 auto;
-  height: 1025px;
+  background-size: 100%;
 }
 
 .container1 {
@@ -535,7 +535,8 @@ form {
 }
 
 .foto {
-  margin-left: -370px;
+  display: flex;
+  justify-content: center;
   margin-top: 80px;
 }
 
