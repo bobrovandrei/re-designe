@@ -110,15 +110,46 @@
     font-size: 18px;
     line-height: 27px;
   }
+  .program-button4 {
+    display: flex;
+    width: 1920px;
+    overflow-x: scroll;
+  }
+  .program-button3 {
+    display: flex;
+  }
+  #program {
+    width: 220px;
+    height: 59px;
+  }
+  .program-button4 {
+    overflow-x: auto;
+  }
+  .program-button5 {
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .program-button6 {
+    width: 1920px;
+    display: flex;
+    gap: 14px;
+  }
+  .program-button3 {
+    width: 1920px;
+    display: flex;
+  }
 }
 
 @media all and (min-width: 1146px) {
-  .program-button2 {
+  .program-button5 {
     display: none;
   }
 }
 
 @media all and (max-width: 920px) {
+  .container1 {
+    max-width: 648px;
+  }
   .head-img :nth-child(4) {
     margin-top: -4px;
   }
@@ -158,9 +189,79 @@
     margin-bottom: 12px;
   }
   .head-img {
-    top: -214px;
+    top: -81px;
   }
   .info {
     display: none;
+  }
+  .container1 ul {
+    margin-bottom: -65px;
+  }
+  .head-img {
+    top: -100px;
+  }
+  .head-img img {
+    width: 200px;
+  }
+  .container1 ul li {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* body {
+    background-size: 768px 1020px;
+  } */
+  nav {
+    justify-content: space-between;
+  }
+  article h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  main h1 {
+    margin-bottom: 30px;
+    margin-top: 80px;
+  }
+  .program-button5 {
+    margin-bottom: 25px;
+  }
+  .pic img {
+    width: 440px;
+  }
+  .main-container p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .main-container {
+    margin-bottom: 140px;
+  }
+  .form form {
+    gap: 0;
+  }
+  .main-container button {
+    margin: 0%;
+  }
+  .review h1 {
+    margin-top: 60px;
+  }
+  .program-button4 {
+    overflow-x: auto;
+  }
+  .program-button5 {
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .program-button6 {
+    width: 1920px;
+    display: flex;
+    gap: 14px;
+  }
+  .program-button3 {
+    width: 1920px;
+    display: flex;
   }
 }
