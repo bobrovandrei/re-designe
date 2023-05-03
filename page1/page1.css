@@ -4,6 +4,14 @@
   box-sizing: border-box;
   /* overflow-x: hidden; */
 }
+.program-button5::-webkit-scrollbar {
+  width: 138px;
+  height: 1px;
+}
+.program-button5::-webkit-scrollbar-thumb {
+  background-color: #8062f2;
+  border-radius: 8px;
+}
 
 body {
   overflow-x: hidden;
@@ -247,7 +255,7 @@ main ul li {
   height: 60px;
   background: #9981f5;
   border: 1px solid #6743ef;
-  box-shadow: 0px 4px 0px #6743ef, 0px 4px 30px rgba(128, 98, 242, 0.6);
+  box-shadow: 0px 0px 0px #6743ef, 0px 4px 30px rgba(128, 98, 242, 0.6);
   border-radius: 100px;
 }
 
@@ -429,7 +437,7 @@ form {
   width: 60px;
   height: 60px;
   border: 1px solid #6743ef;
-  box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+  box-shadow: 0px 3px 0px #6743ef;
   border-radius: 50px;
   position: absolute;
   left: 440px;
@@ -842,7 +850,6 @@ form button {
   background: #ffffff;
   border-radius: 0;
   border: none;
-  box-shadow: 0px 0px 0px #6743ef, 0px 4px 30px rgb(128 98 242 / 60%);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -993,10 +1000,11 @@ main {
   margin: 0 auto;
   position: relative;
   margin-top: -150px;
-  background-size: cover;
+  /* background-size: cover; */
   padding-bottom: 1px;
   padding-left: 120px;
   padding-right: 120px;
+  background-size: 100%;
 }
 
 .background {
@@ -1051,7 +1059,6 @@ main {
   text-decoration: none;
 }
 
-/* #top1 {
-  background-image: url(img/Vector21.png);
-  background-repeat: no-repeat;
-} */
+footer {
+  background-color: rgba(89, 91, 169, 1);
+}
