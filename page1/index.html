@@ -40,18 +40,24 @@
             <nav>
                 <img src="img/logo.svg" alt="logo">
 
+
+
                 <ul>
-                    <li><a href="#">
-                            <select name="Программы" id="select-program">
-                                <option selected>
-                                    <p>Программы</p>
-                                </option>
-                                <option value="Программы 1"></option>
-                                <option value="Программы 1"></option>
-                                <option value="Программы 1"></option>
-                            </select>
-                            <!-- <p>Программы</p> -->
-                        </a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Программы
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"> Программы2</a></li>
+                                <li><a class="dropdown-item" href="#"> Программы2</a></li>
+                                <li><a class="dropdown-item" href="#"> Программы3</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
                     <li><a href="#">
                             <p>Куда поступать на дизайн</p>
                         </a></li>
@@ -62,7 +68,38 @@
                             <p>Контакты</p>
                         </a></li>
                 </ul>
+
+                <div class="offcanvas2">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="img/Frame6224.png"
+                            alt=""></button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Программы</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Закрыть"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            sfsffswef
+                            <ol>
+                                <li><a href="#">
+                                        <p>Куда поступать на дизайн</p>
+                                    </a> </li>
+                                <li><a href="#">
+                                        <p>Центр карьеры</p>
+                                    </a> </li>
+                                <li><a href="#">
+                                        <p>Контакты</p>
+                                    </a> </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
                 <button><img src="img/man.svg" alt="man-icon"> Войти</button>
+
             </nav>
         </div>
 
@@ -106,34 +143,6 @@
 
 
     </header>
-
-    <!-- <div class="program-button5">
-        <div class="program-button6">
-            <button id="program" data-src="img/santa-1.jpg" alt="">
-                Design KIDS
-            </button>
-
-            <button id="program" data-src="img/Mask.png" alt="">
-                Design JUNIOR
-            </button>
-
-            <button id="program" data-src="img/santa-1.jpg" alt="">
-                DESIGN MEDIUM
-            </button>
-
-            <button id="program" data-src="img/Mask.png" alt="">
-                Design College PRO
-            </button>
-
-            <button id="program" data-src="img/santa-1.jpg" alt="">
-                College
-            </button>
-            <button id="program" data-src="img/Mask.png" alt="">
-                Онлайн курс Design START
-            </button>
-
-        </div>
-    </div> -->
 
 
 

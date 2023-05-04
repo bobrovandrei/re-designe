@@ -4,6 +4,43 @@
   box-sizing: border-box;
   /* overflow-x: hidden; */
 }
+
+.btn-close {
+  display: block;
+}
+.offcanvas2 {
+  position: relative;
+  /* background-color: transparent; */
+  top: 0;
+  right: 0;
+  visibility: visible;
+}
+
+.offcanvas-body p {
+  color: #000;
+  list-style-type: none;
+}
+.offcanvas-body ol {
+  list-style-type: none;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+}
+
+.btn-primary {
+  background-color: transparent;
+  visibility: visible;
+  border: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+.btn-primary:focus {
+  border: none;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: transparent;
+}
 .program-button5::-webkit-scrollbar {
   width: 138px;
   height: 1px;
@@ -35,6 +72,7 @@ body {
   max-width: 1680px;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
 }
 
 .head-img {
@@ -55,6 +93,17 @@ body {
 header ul li :hover {
   color: white;
   transition: 0.5s;
+}
+
+#select-program {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0%;
 }
 
 p {
@@ -251,7 +300,7 @@ main p {
   color: rgba(43, 44, 84, 0.7);
 }
 #select-program {
-  width: 140px;
+  width: 165px;
   background: none;
   border: none;
 }
@@ -1021,11 +1070,15 @@ main {
   background-size: 100%;
 }
 
+option {
+  background-color: #9981f5;
+  color: black;
+}
 .background {
   position: absolute;
 }
 .social-img {
-  width: 300px;
+  width: 350px;
   margin-left: auto;
 }
 .social-img ul {
