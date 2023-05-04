@@ -221,6 +221,7 @@ article ul li :hover {
 }
 
 .info button {
+  margin-top: -20px;
   background: #9981f5;
   border: 1px solid #6743ef;
   box-shadow: 0px 4px 0px #6743ef, 0px 4px 30px rgba(128, 98, 242, 0.6);
@@ -249,14 +250,18 @@ main p {
   line-height: 140%;
   color: rgba(43, 44, 84, 0.7);
 }
-
+#select-program {
+  width: 140px;
+  background: none;
+  border: none;
+}
 main ul li {
   margin-bottom: 30px;
 }
 
 .main-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .main-container button {
@@ -334,7 +339,6 @@ main ul li {
 
 .form {
   text-align: center;
-  margin-top: 100px;
 }
 
 form {
@@ -877,7 +881,7 @@ form button {
 }
 
 main {
-  margin-top: 330px;
+  margin-top: 80px;
 }
 
 .block-7 h1 {
@@ -1019,6 +1023,10 @@ main {
 
 .background {
   position: absolute;
+}
+.social-img {
+  width: 300px;
+  margin-left: auto;
 }
 .social-img ul {
   display: flex;
