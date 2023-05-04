@@ -58,6 +58,10 @@
     width: 303px;
     height: 130px;
   }
+  #select-program {
+    font-size: 16px;
+    width: 144px;
+  }
 }
 
 @media all and (max-width: 1350px) {
@@ -106,6 +110,9 @@
 @media all and (max-width: 1145px) {
   .container1 {
     max-width: 768px;
+  }
+  nav button {
+    display: none;
   }
   .card3:nth-child(5) {
     display: none;
@@ -275,6 +282,9 @@
 }
 @media all and (min-width: 1146px) {
   .footer-pay-768 {
+    display: none;
+  }
+  .offcanvas2 {
     display: none;
   }
 }
@@ -607,6 +617,10 @@
 @media all and (max-width: 656px) {
   .container1 {
     max-width: 460px;
+  }
+  .social-img {
+    margin-top: 10px;
+    margin: 0;
   }
   .block-7 ul li:nth-child(1) {
     background-position: center;
