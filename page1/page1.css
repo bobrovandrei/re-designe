@@ -16,12 +16,120 @@
   visibility: visible;
 }
 
+#dropdownMenuLink {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-top: -6px;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.dropdown-menu p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+}
+.dropdown-menu p:hover {
+  background: #8062f2;
+}
+/* .dropdown-menu .show {
+  transform: translate(0px, 20px);
+} */
+.offcanvas2 .dropdown-toggle::after {
+  margin-top: 8px;
+  color: rgba(43, 44, 84, 0.7);
+}
+.dropdown-menu.show li {
+  margin-bottom: 0%;
+}
+.offcanvas-body a {
+  display: flex;
+}
+.offcanvas-body {
+  text-align: left;
+}
+.offcanvas-header h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2c54;
+}
+.dropdown-menu.show {
+  position: absolute;
+  inset: 4px auto auto -65px;
+  margin: 0px;
+  transform: translate(0px, 23px);
+  width: 290px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0%;
+  border: none;
+}
+
+#offcanvasRight {
+  width: 296px;
+  height: 515px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 39px;
+  margin-top: 14px;
+}
 .offcanvas-body p {
-  color: #000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2c54;
   list-style-type: none;
 }
 .offcanvas-body ol {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.offcanvas-body ol li p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2c54;
+}
+.offcanvas-body button {
+  width: 176px;
+  height: 52px;
+  background-color: #f6f4fe;
+  display: block;
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 0;
+  letter-spacing: 0.02em;
+
+  /* accent 1/700 */
+
+  color: #6743ef;
 }
 
 .btn-primary:hover {
@@ -177,6 +285,7 @@ h6 {
 
 nav {
   display: flex;
+  margin-bottom: 140px;
 }
 
 nav ul {
@@ -224,7 +333,6 @@ nav button img {
 }
 
 article h1 {
-  margin-top: 152px;
   margin-bottom: 80px;
   background: url(img/Mask2.png) no-repeat center;
   background-size: 275.63px;
@@ -1057,7 +1165,7 @@ main {
 
 .footer {
   background-image: url(img/Rectangle33.png);
-  padding: 187px 0 0 0;
+  padding-top: 0;
   background-repeat: no-repeat;
   max-width: 1920px;
   margin: 0 auto;
@@ -1080,6 +1188,7 @@ option {
 .social-img {
   width: 350px;
   margin-left: auto;
+  margin-top: 160px;
 }
 .social-img ul {
   display: flex;

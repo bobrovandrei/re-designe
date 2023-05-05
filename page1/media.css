@@ -30,9 +30,7 @@
   .head-img {
     top: -58px;
   }
-  .footer {
-    padding-top: 170px;
-  }
+
   nav ul {
     width: 715px;
   }
@@ -258,9 +256,7 @@
   .footer-logo {
     top: 5px;
   }
-  .footer {
-    padding-top: 170px;
-  }
+
   .footer-info {
     margin: 0px 0px 0;
   }
@@ -559,10 +555,9 @@
     padding-left: 40px;
     padding-right: 40px;
     height: 920px;
-    padding: 83px 0 0 0;
   }
   .social-img {
-    margin-top: 10px;
+    margin-top: 95px;
   }
   .footer-logo {
     width: 157px;
@@ -618,9 +613,12 @@
   .container1 {
     max-width: 460px;
   }
+  .btn-primary img {
+    width: 85px;
+  }
   .social-img {
-    margin-top: 10px;
-    margin: 0;
+    margin-top: 135px;
+    margin-left: 0;
   }
   .block-7 ul li:nth-child(1) {
     background-position: center;
@@ -681,9 +679,8 @@
     margin: 0%;
   }
   .footer {
-    padding: 150px 0 0 0;
     background-size: auto;
-    height: 1340px;
+    height: 1250px;
   }
   .footer-info {
     margin-top: -20px;
