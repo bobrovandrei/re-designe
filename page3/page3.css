@@ -390,8 +390,20 @@ body {
 
 .training-program p {
   margin-bottom: 30px;
-}
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
 
+  /* txt 70 */
+
+  color: rgba(43, 44, 84, 0.7);
+}
+.sertif {
+  display: flex;
+}
 .training-program select {
   width: 825px;
   padding: 30px 0 20px;
@@ -413,12 +425,27 @@ body {
   font-size: 24px;
   max-width: 384px;
 }
-
+.block-7 {
+  margin-bottom: 153px;
+}
 .block-7 h2 {
   font-size: 42px;
   text-align: center;
   padding: 163px 420px 0;
-  background: url(../../img/check.svg) no-repeat 350px 130px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  /* or 50px */
+
+  text-align: center;
+
+  /* dark txt */
+
+  color: #0c1427;
+
+  background: url(img/Mask9.png) no-repeat 350px 130px;
 }
 
 .data {
@@ -430,8 +457,10 @@ body {
 }
 
 .data input {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #b5a4f8;
   border-radius: 40px;
-  border: 1px solid #dfdfe5;
   padding: 21px 200px 21px 20px;
   transition-duration: 0.3s;
   margin-bottom: 15px;
@@ -459,6 +488,22 @@ form button {
   text-align: center;
   margin-top: 15px;
 }
+.send button {
+  width: 186px;
+  height: 60px;
+  background: #9981f5;
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef, 0px 4px 30px rgb(128 98 242 / 60%);
+  border-radius: 100px;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 
 .social {
   display: flex;
@@ -470,11 +515,11 @@ form button {
   padding: 0 5px;
 }
 
-.footer {
+/* .footer {
   background: #595ba9;
   padding: 85px 0 110px 0;
   margin-top: 60px;
-}
+} */
 
 .footer h5 {
   color: white;
@@ -511,4 +556,105 @@ form button {
 .footer img {
   vertical-align: bottom;
   padding: 0 10px 0 0;
+}
+
+/* footer */
+
+.footer {
+  background-image: url(img/Rectangle33.png);
+  padding-top: 0;
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -150px;
+  /* background-size: cover; */
+  padding-bottom: 1px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background-size: 100% 100%;
+}
+
+option {
+  background-color: #9981f5;
+  color: black;
+}
+.background {
+  position: absolute;
+}
+.social-img {
+  width: 350px;
+  margin-left: auto;
+  margin-top: 160px;
+}
+.social-img ul {
+  display: flex;
+  gap: 27px;
+  margin: 0;
+  padding: 0;
+  justify-content: end;
+  list-style-type: none;
+}
+.footer-logo {
+  background: url(img/Rectangle\ 39605.png) no-repeat;
+  height: 190px;
+  padding-left: 16px;
+  padding-top: 90px;
+}
+.footer h5 {
+  color: white;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-info {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0px 0;
+}
+.footerr-info div {
+  width: 380px;
+  margin: 0 10px;
+}
+
+.footer-info p {
+  padding: 0 0 20px 0;
+  font-weight: 400;
+}
+
+.footer-info h4 {
+  color: white;
+  padding: 0 0 30px 0;
+}
+
+.footer img {
+  vertical-align: bottom;
+  padding: 0 10px 0 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+/* footer {
+  background-color: rgba(89, 91, 169, 1);
+} */
+.social {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.social li {
+  padding: 0 5px;
+}
+
+.footer-contacts h5 {
+  text-align: left;
 }
