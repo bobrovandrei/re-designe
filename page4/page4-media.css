@@ -1,0 +1,537 @@
+@media all and (max-width: 1680px) {
+  .container {
+    width: 1400px;
+  }
+
+  h1 {
+    background: url(../../img/G.svg) no-repeat 150px 100px;
+    background-size: 400px;
+  }
+
+  .block-2 h2 {
+    background: url(../../img/karakul.svg) no-repeat 450px 80px;
+  }
+
+  .what-will-you-learn {
+    margin-left: 0;
+  }
+
+  .learn img {
+    height: 600px;
+    width: 600px;
+  }
+
+  .training-program h2 {
+    font-size: 32px;
+    text-align: center;
+    background: url(../../img/circle.svg) no-repeat 380px 0;
+    background-size: 140px;
+  }
+
+  .training-program {
+    max-width: 685px;
+  }
+
+  .training-program select {
+    max-width: 688px;
+  }
+
+  .block-7 h2 {
+    background: url(../../img/G.svg) no-repeat 645px 20px;
+  }
+
+  .block-7 ul {
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    max-width: none;
+  }
+
+  .block-7 ul li:nth-child(8) {
+    margin-right: 0;
+  }
+
+  .block-9 h2 {
+    padding: 163px 340px 0;
+    background: none;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .container {
+    width: 1000px;
+  }
+
+  h1 {
+    font-size: 32px;
+    background: url(../../img/G.svg) no-repeat 200px 100px;
+    background-size: 230px;
+  }
+
+  .study-start {
+    margin-left: 0;
+  }
+
+  .study-start ul {
+    margin-left: 65px;
+  }
+
+  .block-2 h2 {
+    font-size: 32px;
+    background: url(../../img/karakul.svg) no-repeat 380px 50px;
+    background-size: 250px;
+    padding-bottom: 84px;
+  }
+
+  .learn {
+    justify-content: space-between;
+  }
+
+  .learn-not-adapt {
+    display: none;
+  }
+
+  .learn-adapt {
+    display: block;
+    margin-bottom: 36px;
+  }
+
+  .learn-adapt h2 {
+    font-size: 32px;
+  }
+
+  .learn-adapt p {
+    font-size: 16px;
+    color: #2b2c54;
+  }
+
+  .learn ul li {
+    font-size: 16px;
+  }
+
+  .learn img {
+    width: 400px;
+    height: 400px;
+    margin-right: 0;
+  }
+
+  .what-will-you-learn {
+    width: 400px;
+  }
+
+  .block-3 {
+    margin-top: 104px;
+  }
+
+  .block-4 h2 {
+    font-size: 32px;
+  }
+
+  .how-we-teach div img {
+    margin-left: -80px;
+    width: 550px;
+  }
+
+  .how-we-teach h2 {
+    font-size: 32px;
+    margin-bottom: 26px;
+    background: url(../../img/G.svg) no-repeat 120px 5px;
+    background-size: 150px;
+  }
+
+  .block-6 {
+    margin-top: 50px;
+  }
+
+  .block-7 h2 {
+    background: url(../../img/G.svg) no-repeat 450px 10px;
+    font-size: 32px;
+    background-size: 180px;
+    padding: 10px 0;
+    margin-top: 60px;
+  }
+
+  .block-7 ul li:nth-child(8) {
+    width: 430px;
+  }
+
+  .block-7 ul li:nth-child(8) img {
+    width: 430px;
+  }
+
+  .block-8 h2 {
+    font-size: 32px;
+  }
+
+  .block-9 h2 {
+    font-size: 24px;
+    padding: 57px 250px 0;
+  }
+
+  form button {
+    padding: 14px 30px;
+    font-size: 16px;
+  }
+
+  .social {
+    padding: 50px 0 0 0;
+  }
+
+  .footer-programms {
+    order: 1;
+    width: 688px;
+  }
+
+  .footer-info {
+    flex-wrap: wrap;
+    margin: 60px 0 0;
+  }
+
+  .footer-info h4 {
+    padding: 20px 0;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .container {
+    width: 750px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .logo-adapt {
+    display: block;
+  }
+
+  h1 {
+    background: url(../../img/G.svg) no-repeat 80px 100px;
+    background-size: 230px;
+  }
+
+  .study-start {
+    margin-top: 0;
+  }
+
+  .study-start img {
+    width: 380px;
+    height: 410px;
+    margin-left: -80px;
+    margin-top: 90px;
+  }
+
+  .study-start ul li h3 {
+    font-size: 18px;
+  }
+
+  .study-start ul li button {
+    font-size: 16px;
+    padding: 14px 30px;
+  }
+
+  .block-2 h2 {
+    background: url(../../img/karakul.svg) no-repeat 250px 60px;
+    background-size: 250px;
+  }
+
+  .learn img {
+    width: 322px;
+    height: 327px;
+  }
+
+  .block-4 h2 {
+    padding-bottom: 30px;
+  }
+
+  .how-we-teach {
+    justify-content: space-around;
+  }
+
+  .how-we-teach div img {
+    margin-top: 20px;
+    margin-left: -80px;
+    width: 360px;
+  }
+
+  .how-we-teach h2 {
+    font-size: 32px;
+    margin-bottom: 26px;
+  }
+
+  .how-we-teach div:last-child {
+    padding-top: 20px;
+    max-width: 370px;
+  }
+
+  .how-we-teach h3,
+  .how-we-teach p {
+    font-size: 16px;
+  }
+
+  .how-we-teach ul li {
+    margin-bottom: 16px;
+  }
+
+  .block-7 h2 {
+    background: url(../../img/G.svg) no-repeat 330px 10px;
+    font-size: 32px;
+    background-size: 180px;
+  }
+
+  .block-7 ul li {
+    width: 330px;
+    padding: 0;
+  }
+
+  .block-7 ul li:nth-child(8) {
+    width: 350px;
+  }
+
+  .block-7 ul li:nth-child(8) img {
+    width: 350px;
+  }
+
+  .block-7 ul {
+    justify-content: space-around;
+  }
+
+  .block-9 h2 {
+    padding: 57px 120px 0;
+  }
+
+  .social {
+    padding: 20px 0 0 0;
+  }
+
+  .footer-contacts {
+    width: 334px;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+
+  .info-for-our {
+    width: 398px;
+  }
+
+  .footer-programms {
+    width: 220px;
+  }
+
+  .footer-info div {
+    width: 290px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+
+  h1 {
+    background: url(../../img/G.svg) no-repeat 60px 60px;
+    background-size: 230px;
+    padding: 70px 10px 20px;
+  }
+
+  .block-1 h2 {
+    padding: 0 30px;
+  }
+
+  .study-start {
+    justify-content: space-around;
+  }
+
+  .study-start img {
+    margin-left: 0;
+    order: 1;
+    margin-top: 16px;
+  }
+
+  .study-start ul {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .block-2 h2 {
+    padding-bottom: 84px;
+    background: url(../../img/karakul.svg) no-repeat 130px 80px;
+    background-size: 250px;
+  }
+
+  .block-2 ul {
+    text-align: center;
+    justify-content: center;
+    margin-left: -15px;
+  }
+
+  .block-2 ul li:nth-child(1) {
+    background: url("../../img/star.svg") no-repeat 100px 0;
+  }
+
+  .block-2 ul li:nth-child(2) {
+    background: url("../../img/cap.svg") no-repeat 100px 0;
+  }
+
+  .block-2 ul li:nth-child(3) {
+    background: url("../../img/bulb.svg") no-repeat 100px 0;
+  }
+
+  .block-2 ul li:nth-child(4) {
+    background: url("../../img/pan.svg") no-repeat 130px 0;
+  }
+
+  .block-3 {
+    margin-top: 60px;
+  }
+
+  .learn img {
+    margin-left: 90px;
+  }
+
+  .how-we-teach {
+    flex-wrap: wrap;
+  }
+
+  .how-we-teach div:first-child {
+    order: 1;
+  }
+
+  .how-we-teach div:last-child {
+    padding-top: 20px;
+    max-width: 330px;
+  }
+
+  .training-program {
+    max-width: 360px;
+  }
+
+  .training-program h2 {
+    text-align: left;
+  }
+
+  .training-program select {
+    max-width: 340px;
+  }
+
+  .block-7 h2 {
+    font-size: 32px;
+    padding: 10px 90px;
+    margin-top: 30px;
+    background: url(../../img/G.svg) no-repeat 230px 10px;
+    background-size: 180px;
+  }
+
+  .block-7 ul {
+    text-align: center;
+  }
+
+  .block-7 ul li:nth-child(1) {
+    background: url(../../img/star.svg) no-repeat 90px 10px;
+  }
+
+  .block-7 ul li:nth-child(2) {
+    background: url(../../img/cap.svg) no-repeat 90px 10px;
+  }
+
+  .block-7 ul li:nth-child(3) {
+    background: url(../../img/book.svg) no-repeat 90px 10px;
+  }
+
+  .block-7 ul li:nth-child(4) {
+    background: url(../../img/calendar.svg) no-repeat 90px 10px;
+  }
+
+  .block-7 ul li:nth-child(5) {
+    background: url(../../img/social.svg) no-repeat 90px 10px;
+  }
+
+  .block-7 ul li:nth-child(6) {
+    background: url(../../img/devices.svg) no-repeat 90px 10px;
+  }
+
+  .block-7 ul li:nth-child(7) {
+    background: url(../../img/bulb.svg) no-repeat 90px 10px;
+  }
+
+  .block-9 h2 {
+    padding: 57px 0 0;
+  }
+
+  .data input {
+    padding: 21px 140px 21px 20px;
+  }
+
+  .footer-menu {
+    order: 1;
+  }
+
+  .footer-info {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .container {
+    width: 320px;
+  }
+
+  h1 {
+    padding: 14px 10px 20px;
+    background: url(../../img/G.svg) no-repeat 60px 10px;
+    background-size: 230px;
+  }
+
+  .block-2 h2 {
+    background: url(../../img/karakul.svg) no-repeat 70px 80px;
+    background-size: 250px;
+  }
+
+  .study-start img {
+    width: 411px;
+    height: 442px;
+    margin-left: -52px;
+  }
+
+  .learn-adapt {
+  }
+
+  .learn img {
+    margin-left: 0px;
+  }
+
+  .block-3 .container {
+    width: 340px;
+    padding: 0 10px;
+  }
+
+  .how-we-teach div img {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .block-6 .container {
+    padding: 0 15px;
+  }
+
+  .block-7 h2 {
+    padding: 0;
+    background: url(../../img/G.svg) no-repeat 160px 0;
+    background-size: 180px;
+  }
+
+  .footer {
+    padding: 0 0 0 10px;
+  }
+
+  .social {
+    padding: 100px 0 0 0;
+  }
+
+  .info-for-our {
+    width: 300px;
+  }
+}
