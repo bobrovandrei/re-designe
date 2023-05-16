@@ -137,6 +137,20 @@
     background-size: 230px;
     background-position: center 36px;
   }
+  .block-7 h2 {
+    padding: 0;
+    margin-top: 80px;
+  }
+  .training-program h2 {
+    padding-bottom: 30px;
+    background: url(img/Mask2.png) no-repeat 251px 0;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .block-7 {
+    margin-bottom: 0;
+  }
 }
 
 @media all and (max-width: 810px) {
@@ -201,259 +215,367 @@
   .curator-img {
     display: none;
   }
+
+  /* block-5 */
+
+  .block-5 {
+    padding-top: 0;
+    background-position: left;
+    background-size: 165%;
+  }
+
+  .how-we-teach div img {
+    margin-left: 0;
+    width: 364.63px;
+    height: 325.92px;
+  }
+
+  .block-5 h2 {
+    font-size: 32px;
+    background: none;
+  }
+
+  .block-5 h3 {
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2b2c54;
+  }
+  .how-we-teach ul li {
+    margin: 0;
+  }
+
+  .how-we-teach p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(43, 44, 84, 0.7);
+  }
+  .how-we-teach div:last-child {
+    padding: 0;
+  }
+  .block5-1 {
+    margin-top: 50px;
+  }
+
+  /* block-6 */
+
+  .block-6 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    background-position: center;
+
+    text-align: center;
+    color: #2b2c54;
+  }
+
+  .training-program p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(43, 44, 84, 0.7);
+  }
+  .training-program select {
+    width: 688px;
+  }
+  .certificate {
+    margin-top: 40px;
+  }
+
+  /* block-7 */
+
+  .block-7 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #2b2c54;
+    padding: 0;
+    margin-top: 60px;
+  }
+  .block-2 {
+    margin-top: 60px;
+  }
+  .block2-img img {
+    width: 190px;
+  }
+  .learn-img {
+    display: none;
+  }
+  .learn {
+    background-position: left -31px;
+    flex-wrap: nowrap;
+    background: none;
+  }
+  .what-will-you-learn {
+    margin: 0;
+  }
+  .artist img {
+    width: 317.57px;
+    height: 355.57px;
+    margin-top: 230px;
+  }
+  .learn h2 {
+    font-size: 32px;
+  }
+  .block-3 {
+    padding-top: 90px;
+  }
+  .learn p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .learn ul li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .data input {
+    width: 334px;
+    height: 46px;
+    padding: 0%;
+    padding-left: 20px;
+  }
+  .send button {
+    width: 139px;
+    height: 44px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+  }
+
+  /* footer */
+
+  .footer-pay-360 {
+    display: none;
+  }
+
+  .footer-pay {
+    display: none;
+  }
+
+  .footer-info h4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .footer-info p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  /*  */
+
+  .footer {
+    background-image: url(img/footer768.png);
+    background-size: 100% 920px;
+    margin-top: -77px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 920px;
+  }
+
+  .social-img img {
+    width: 36px;
+    height: 23px;
+  }
+  .social-img {
+    margin-top: 88px;
+  }
+
+  .footer-logo {
+    width: 157px;
+    height: 108.18px;
+    padding: 44px 0px 0px 18px;
+    top: 0;
+  }
+
+  .footer-logo img {
+    width: 121px;
+    height: 43.21px;
+  }
+
+  .social-img {
+    margin-top: 95px;
+  }
+  .social-img ul {
+    flex-wrap: nowrap;
+    margin-left: 352px;
+  }
+  .container1 ul li {
+    display: block;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .footer-info h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    padding-bottom: 16px;
+  }
+  .footer-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0;
+  }
+  .footer-menu {
+    margin-left: 40px;
+  }
+  .footer-programms {
+    margin-left: 417px;
+  }
+  .footer-contacts {
+    margin-top: -223px;
+  }
+  .footer-pay {
+    display: none;
+  }
+  .footer-pay-768 {
+    margin-top: 30px;
+  }
+  .footer-pay-360 {
+    display: none;
+  }
+  .footer-info {
+    margin-top: 30px;
+  }
+  .footer-info div {
+    width: auto;
+  }
+  .footer .footer-programms {
+    margin-left: 405px;
+  }
+  .footer .footer-contacts {
+    margin-top: -205px;
+  }
 }
 
-/* block-5 */
-
-.block-5 {
-  padding-top: 0;
-  background-position: left;
-  background-size: 165%;
+@media all and (max-width: 656px) {
+  .container1 {
+    max-width: 460px;
+  }
+  .container {
+    max-width: 460px;
+  }
 }
 
-.how-we-teach div img {
-  margin-left: 0;
-  width: 364.63px;
-  height: 325.92px;
+@media all and (max-width: 490px) {
+  .container1 {
+    max-width: 345px;
+  }
+  .container {
+    max-width: 345px;
+  }
+  .study-start ul {
+    text-align: center;
+  }
+  .study-start {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .study-start img {
+    width: 100%;
+  }
+  .block-2 ul li {
+    text-align: center;
+    padding-top: 0;
+  }
+  .what-will-you-learn {
+    width: auto;
+  }
+  .block-3 {
+    padding-top: 0;
+  }
+  .learn {
+    flex-direction: column;
+  }
+  .artist img {
+    width: 317.57px;
+    height: 355.57px;
+    margin-top: 20px;
+  }
+  .curator {
+    flex-direction: column;
+  }
+  .how-we-teach {
+    flex-direction: column-reverse;
+  }
+  .block-5 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .training-program {
+    width: 100%;
+  }
+  .training-program select {
+    width: 328px;
+  }
+  .certif-img img {
+    width: 328px;
+    height: 221px;
+  }
+  .social-img {
+    margin-top: 145px;
+  }
+  .footer .footer-contacts {
+    margin-top: 0;
+  }
+  .footer .footer-programms {
+    margin-left: 0;
+  }
+  .footer {
+    background-image: url(img/footer768.png);
+    background-size: 196% 1417px;
+    margin-top: -77px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 1399px;
+  }
+  .footer-info div {
+    margin: 0;
+  }
+  .social-img ul {
+    gap: 10px;
+    margin-left: 0;
+    justify-content: left;
+  }
 }
 
-.block-5 h2 {
-  font-size: 32px;
-  background: none;
-}
-
-.block-5 h3 {
-  font-family: "Unbounded";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 120%;
-  color: #2b2c54;
-}
-.how-we-teach ul li {
-  margin: 0;
-}
-
-.how-we-teach p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: rgba(43, 44, 84, 0.7);
-}
-.how-we-teach div:last-child {
-  padding: 0;
-}
-.block5-1 {
-  margin-top: 50px;
-}
-
-/* block-6 */
-
-.block-6 h2 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 120%;
-  background-position: center;
-
-  text-align: center;
-  color: #2b2c54;
-}
-
-.training-program p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: rgba(43, 44, 84, 0.7);
-}
-.training-program select {
-  width: 688px;
-}
-.certificate {
-  margin-top: 40px;
-}
-
-/* block-7 */
-
-.block-7 h2 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 120%;
-  text-align: center;
-  color: #2b2c54;
-  padding: 0;
-  margin-top: 60px;
-}
-.block-2 {
-  margin-top: 60px;
-}
-.block2-img img {
-  width: 190px;
-}
-.learn-img {
-  display: none;
-}
-.learn {
-  background-position: left -31px;
-  flex-wrap: nowrap;
-  background: none;
-}
-.what-will-you-learn {
-  margin: 0;
-}
-.artist img {
-  width: 317.57px;
-  height: 355.57px;
-  margin-top: 230px;
-}
-.learn h2 {
-  font-size: 32px;
-}
-.block-3 {
-  padding-top: 90px;
-}
-.learn p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-.learn ul li {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-.data input {
-  width: 334px;
-  height: 46px;
-  padding: 0%;
-  padding-left: 20px;
-}
-.send button {
-  width: 139px;
-  height: 44px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0.02em;
-
-  color: #ffffff;
-}
-
-/* footer */
-
-.footer-pay-360 {
-  display: none;
-}
-
-.footer-pay {
-  display: none;
-}
-
-.footer-info h4 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 120%;
-}
-.footer-info p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-/*  */
-
-.footer {
-  background-image: url(img/footer768.png);
-  background-size: 100% 920px;
-  margin-top: -77px;
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 920px;
-}
-.footer img {
-  width: 36px;
-  height: 23px;
-}
-.social-img {
-  margin-top: 88px;
-}
-
-.footer-logo {
-  width: 157px;
-  height: 108.18px;
-  padding: 44px 0px 0px 18px;
-  top: 0;
-}
-
-.footer-logo img {
-  width: 121px;
-  height: 43.21px;
-}
-
-.social-img {
-  margin-top: 95px;
-}
-.social-img ul {
-  flex-wrap: nowrap;
-  margin-left: 352px;
-}
-.container1 ul li {
-  display: block;
-}
-.footer-info {
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 70px;
-}
-.footer-info h4 {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 120%;
-  padding-bottom: 16px;
-}
-.footer-info p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-.footer-menu {
-  margin-left: 40px;
-}
-.footer-programms {
-  margin-left: 417px;
-}
-.footer-contacts {
-  margin-top: -223px;
-}
-.footer-pay {
-  display: none;
-}
-.footer-pay-768 {
-  margin-top: 30px;
-}
-.footer-pay-360 {
-  display: none;
-}
-.footer-info {
-  margin-top: 30px;
-}
-.footer-info div {
-  width: auto;
+@media all and (min-width: 1146px) {
+  .footer-pay-360 {
+    display: none;
+  }
 }
