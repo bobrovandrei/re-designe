@@ -1,0 +1,97 @@
+.modal.show .modal-dialog {
+  max-width: 910px;
+}
+.modal-content {
+  width: 825px;
+  height: 565px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 120%;
+  /* or 72px */
+
+  text-align: center;
+
+  /* header color */
+
+  color: #2b2c54;
+}
+.modal-header {
+  border-bottom: none;
+}
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* or 22px */
+
+  text-align: center;
+
+  /* txt 70 */
+
+  color: rgba(43, 44, 84, 0.7);
+}
+
+.modal-body {
+  text-align: center;
+}
+.btn {
+  width: 198px;
+  height: 60px;
+  left: 103.5px;
+  top: 240px;
+
+  /* accent 1/500 */
+
+  background: #9981f5;
+  /* accent 1/700 */
+
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef, 0px 4px 30px rgba(128, 98, 242, 0.6);
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.modal-body input {
+  width: 432px;
+  height: 60px;
+  padding: 19px;
+
+  border: 1px solid rgba(43, 44, 84, 0.15);
+  border-radius: 40px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.input-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: rgba(43, 44, 84, 0.7);
+}
+.modal-background {
+  width: 910px;
+  height: 650px;
+  background: url(img/Rectangle\ 39647.png) no-repeat;
+}
