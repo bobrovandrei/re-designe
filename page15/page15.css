@@ -2271,8 +2271,21 @@ th {
 }
 
 .block-2 h4 {
-  font-size: 24px;
-  padding-top: 10px;
+  padding: 0%;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* txt 70 */
+
+  color: rgba(43, 44, 84, 0.7);
 }
 
 .block-2 .container ul li {
@@ -2678,7 +2691,9 @@ h5 {
   color: rgba(43, 44, 84, 0.7);
 }
 .container img {
-  margin-bottom: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 p {
   font-family: "Inter";
@@ -2709,17 +2724,38 @@ h1 {
   width: 398px;
   height: 609px;
   background-color: #ffffff;
+  padding: 20px;
+  position: relative;
 }
 
 .block-2 .container ul li h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
   font-size: 20px;
-  padding: 25px 0;
+  line-height: 120%;
+  /* or 24px */
+
+  /* header color */
+
+  color: #2b2c54;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .block-2 .container ul li p {
-  font-size: 16px;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
-  width: 350px;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* txt 70 */
+
+  color: rgba(43, 44, 84, 0.7);
+  margin: 0;
 }
 
 .block-2 .container ul li button {
@@ -2735,6 +2771,9 @@ h1 {
   color: #a38ef6;
   margin-top: 38px;
   letter-spacing: 1px;
+  margin: 0;
+  position: absolute;
+  top: 220px;
 }
 
 .block-3 {
@@ -2742,17 +2781,18 @@ h1 {
 }
 
 .block-3 button {
-  background: #ffffff;
-  font-size: 20px;
-  width: 1570px;
+  width: 1680px;
   height: 52px;
+  background: #ffffff;
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef;
   border-radius: 100px;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-left: 1px solid;
-  border-bottom: 5px solid;
-  border-color: #7656f1;
-  color: #a38ef6;
-  margin-top: 38px;
-  letter-spacing: 1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  margin-bottom: 6px;
+  color: #6743ef;
 }
