@@ -2,6 +2,18 @@
   .container1 {
     max-width: 1480px;
   }
+  .block-2 .container {
+    max-width: 1480px;
+  }
+  .block-2 .container ul {
+    justify-content: center;
+  }
+  .block-2 {
+    margin-bottom: 30px;
+  }
+  .block-3 button {
+    max-width: 1350px;
+  }
 }
 
 /*  */
@@ -29,6 +41,9 @@
     margin-left: 0;
     padding-left: 0;
   }
+  .block-3 button {
+    max-width: 1245px;
+  }
 }
 @media all and (max-width: 1350px) {
   .container1 {
@@ -36,6 +51,9 @@
   }
   header p {
     font-size: 16px;
+  }
+  .block-3 button {
+    max-width: 1025px;
   }
   #dropdownMenuLink {
     font-size: 16px;
@@ -63,6 +81,9 @@
   }
   nav button img {
     padding: 0;
+  }
+  .block-3 button {
+    max-width: 843px;
   }
   nav button {
     padding: 0;
@@ -131,11 +152,19 @@
   .offcanvas2 {
     display: block;
   }
+  .footer-logo {
+    top: 100px;
+  }
+  .block-3 button {
+    max-width: 700px;
+  }
   h1 {
     font-size: 34px;
     padding-top: 50px;
     background-size: 230px;
     background-position: center 36px;
+    margin-top: 0;
+    padding-bottom: 18px;
   }
   .block-7 h2 {
     padding: 0;
@@ -165,6 +194,13 @@
   }
   .offcanvas2 img {
     width: 47px;
+  }
+  .block-3 button {
+    max-width: 400px;
+  }
+  .block-3 {
+    padding-top: 0;
+    margin-bottom: 80px;
   }
   .btn-primary {
     margin: 0;
@@ -329,9 +365,7 @@
   .learn h2 {
     font-size: 32px;
   }
-  .block-3 {
-    padding-top: 90px;
-  }
+
   .learn p {
     font-family: "Inter";
     font-style: normal;
@@ -368,10 +402,6 @@
   /* footer */
 
   .footer-pay-360 {
-    display: none;
-  }
-
-  .footer-pay {
     display: none;
   }
 
@@ -461,6 +491,9 @@
     display: none;
   }
   .footer-pay-768 {
+    display: block;
+  }
+  .footer-pay-768 {
     margin-top: 30px;
   }
   .footer-pay-360 {
@@ -516,8 +549,17 @@
   .block-3 {
     padding-top: 0;
   }
+  .footer-pay-768 {
+    display: none;
+  }
+  .footer-pay-360 {
+    display: block;
+  }
   .learn {
     flex-direction: column;
+  }
+  .footer-logo {
+    top: 28px;
   }
   .artist img {
     width: 317.57px;
@@ -571,6 +613,12 @@
     gap: 10px;
     margin-left: 0;
     justify-content: left;
+  }
+  .block-3 button {
+    max-width: 337px;
+  }
+  .block-2 .container ul li {
+    text-align: left;
   }
 }
 

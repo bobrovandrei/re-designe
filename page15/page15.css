@@ -2153,11 +2153,12 @@ th {
   font-size: 18px;
   display: flex;
   justify-content: space-between;
-  margin: 60px 20px 0;
+  margin: 0%;
+  margin-top: 60px;
 }
 .footer-info div {
   width: 380px;
-  margin: 0 10px;
+  margin: 0;
 }
 
 .footer-info p {
@@ -2795,4 +2796,15 @@ h1 {
   letter-spacing: 0.02em;
   margin-bottom: 6px;
   color: #6743ef;
+}
+
+.footer-info p {
+  padding: 0;
+  margin-bottom: 15px;
+}
+.offcanvas-header .btn-close {
+  box-shadow: none;
+}
+.offcanvas2 {
+  width: 115px;
 }
