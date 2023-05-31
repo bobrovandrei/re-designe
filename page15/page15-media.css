@@ -1,0 +1,629 @@
+@media all and (max-width: 1700px) {
+  .container1 {
+    max-width: 1480px;
+  }
+  .block-2 .container {
+    max-width: 1480px;
+  }
+  .block-2 .container ul {
+    justify-content: center;
+  }
+  .block-2 {
+    margin-bottom: 30px;
+  }
+  .block-3 button {
+    max-width: 1350px;
+  }
+}
+
+/*  */
+@media all and (min-width: 1146px) {
+  .footer-pay-768 {
+    display: none;
+  }
+}
+@media all and (min-width: 921px) {
+  .offcanvas2 {
+    display: none;
+  }
+}
+/*  */
+
+@media all and (max-width: 1510px) {
+  .container1 {
+    max-width: 1330px;
+  }
+  .study-start {
+    margin: 0;
+    justify-content: center;
+  }
+  .study-start ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .block-3 button {
+    max-width: 1245px;
+  }
+}
+@media all and (max-width: 1350px) {
+  .container1 {
+    max-width: 1110px;
+  }
+  header p {
+    font-size: 16px;
+  }
+  .block-3 button {
+    max-width: 1025px;
+  }
+  #dropdownMenuLink {
+    font-size: 16px;
+  }
+  nav ul {
+    justify-content: space-evenly;
+  }
+  nav button img {
+    padding: 0px 5px 0 20px;
+  }
+}
+
+@media all and (max-width: 1145px) {
+  .container {
+    max-width: 900px;
+  }
+  .container1 {
+    max-width: 900px;
+  }
+  h1 {
+    font-size: 40px;
+    background-size: 285px;
+    padding-top: 30px;
+    background-position: bottom;
+  }
+  nav button img {
+    padding: 0;
+  }
+  .block-3 button {
+    max-width: 843px;
+  }
+  nav button {
+    padding: 0;
+    width: 176px;
+    height: 41px;
+  }
+  header p {
+    font-size: 13px;
+  }
+  .dropdown {
+    margin-top: -3px;
+  }
+  #dropdownMenuLink {
+    font-size: 13px;
+  }
+  .study-start img {
+    width: 60%;
+    height: 50%;
+  }
+  .study-start ul {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .study-start p {
+    margin: 0;
+  }
+  /* block-2 */
+
+  .block-2 h2 {
+    font-size: 40px;
+  }
+
+  /* block-4 */
+
+  .block-4 h2 {
+    font-size: 40px;
+  }
+
+  /* block-5 */
+
+  .block-5 h2 {
+    font-size: 40px;
+  }
+  /* block-6 */
+
+  .block-6 h2 {
+    font-size: 40px;
+  }
+  /* block-7 */
+
+  .block-7 h2 {
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 935px) {
+  .container1 {
+    max-width: 768px;
+  }
+  nav button {
+    display: none;
+  }
+  nav ul {
+    display: none;
+  }
+  .offcanvas2 {
+    display: block;
+  }
+  .footer-logo {
+    top: 100px;
+  }
+  .block-3 button {
+    max-width: 700px;
+  }
+  h1 {
+    font-size: 34px;
+    padding-top: 50px;
+    background-size: 230px;
+    background-position: center 36px;
+    margin-top: 0;
+    padding-bottom: 18px;
+  }
+  .block-7 h2 {
+    padding: 0;
+    margin-top: 80px;
+  }
+  .training-program h2 {
+    padding-bottom: 30px;
+    background: url(img/Mask2.png) no-repeat 251px 0;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .block-7 {
+    margin-bottom: 0;
+  }
+}
+
+@media all and (max-width: 810px) {
+  .container1 {
+    max-width: 676px;
+  }
+  .container {
+    max-width: 676px;
+  }
+  nav img {
+    width: 100px;
+  }
+  .offcanvas2 img {
+    width: 47px;
+  }
+  .block-3 button {
+    max-width: 400px;
+  }
+  .block-3 {
+    padding-top: 0;
+    margin-bottom: 80px;
+  }
+  .btn-primary {
+    margin: 0;
+  }
+  .block-1 h1 {
+    font-size: 32px;
+  }
+  .study-start {
+    justify-content: left;
+  }
+  .study-start ul li h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .study-start ul li h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .study-start ul li p {
+    font-size: 16px;
+  }
+  .study-start ul li button {
+    width: 157px;
+    height: 44px;
+  }
+  body {
+    background-size: 100%;
+  }
+  /* block-2 */
+
+  .block-2 h2 {
+    font-size: 32px;
+  }
+
+  /* block-4 */
+
+  .block-4 h2 {
+    font-size: 32px;
+  }
+
+  .curator p {
+    max-width: fit-content;
+    margin-top: 0;
+  }
+  .curator-img2 img {
+    width: 380px;
+  }
+  .curator-img {
+    display: none;
+  }
+
+  /* block-5 */
+
+  .block-5 {
+    padding-top: 0;
+    background-position: left;
+    background-size: 165%;
+  }
+
+  .how-we-teach div img {
+    margin-left: 0;
+    width: 364.63px;
+    height: 325.92px;
+  }
+
+  .block-5 h2 {
+    font-size: 32px;
+    background: none;
+  }
+
+  .block-5 h3 {
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2b2c54;
+  }
+  .how-we-teach ul li {
+    margin: 0;
+  }
+
+  .how-we-teach p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(43, 44, 84, 0.7);
+  }
+  .how-we-teach div:last-child {
+    padding: 0;
+  }
+  .block5-1 {
+    margin-top: 50px;
+  }
+
+  /* block-6 */
+
+  .block-6 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    background-position: center;
+
+    text-align: center;
+    color: #2b2c54;
+  }
+
+  .training-program p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(43, 44, 84, 0.7);
+  }
+  .training-program select {
+    width: 688px;
+  }
+  .certificate {
+    margin-top: 40px;
+  }
+
+  /* block-7 */
+
+  .block-7 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #2b2c54;
+    padding: 0;
+    margin-top: 60px;
+  }
+  .block-2 {
+    margin-top: 60px;
+  }
+  .block2-img img {
+    width: 190px;
+  }
+  .learn-img {
+    display: none;
+  }
+  .learn {
+    background-position: left -31px;
+    flex-wrap: nowrap;
+    background: none;
+  }
+  .what-will-you-learn {
+    margin: 0;
+  }
+  .artist img {
+    width: 317.57px;
+    height: 355.57px;
+    margin-top: 230px;
+  }
+  .learn h2 {
+    font-size: 32px;
+  }
+
+  .learn p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .learn ul li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .data input {
+    width: 334px;
+    height: 46px;
+    padding: 0%;
+    padding-left: 20px;
+  }
+  .send button {
+    width: 139px;
+    height: 44px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+  }
+
+  /* footer */
+
+  .footer-pay-360 {
+    display: none;
+  }
+
+  .footer-info h4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .footer-info p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  /*  */
+
+  .footer {
+    background-image: url(img/footer768.png);
+    background-size: 100% 920px;
+    margin-top: -77px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 920px;
+  }
+
+  .social-img img {
+    width: 36px;
+    height: 23px;
+  }
+  .social-img {
+    margin-top: 88px;
+  }
+
+  .footer-logo {
+    width: 157px;
+    height: 108.18px;
+    padding: 44px 0px 0px 18px;
+    top: 0;
+  }
+
+  .footer-logo img {
+    width: 121px;
+    height: 43.21px;
+  }
+
+  .social-img {
+    margin-top: 95px;
+  }
+  .social-img ul {
+    flex-wrap: nowrap;
+    margin-left: 352px;
+  }
+  .container1 ul li {
+    display: block;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .footer-info h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    padding-bottom: 16px;
+  }
+  .footer-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0;
+  }
+  .footer-menu {
+    margin-left: 40px;
+  }
+  .footer-programms {
+    margin-left: 417px;
+  }
+  .footer-contacts {
+    margin-top: -223px;
+  }
+  .footer-pay {
+    display: none;
+  }
+  .footer-pay-768 {
+    display: block;
+  }
+  .footer-pay-768 {
+    margin-top: 30px;
+  }
+  .footer-pay-360 {
+    display: none;
+  }
+  .footer-info {
+    margin-top: 30px;
+  }
+  .footer-info div {
+    width: auto;
+  }
+  .footer .footer-programms {
+    margin-left: 405px;
+  }
+  .footer .footer-contacts {
+    margin-top: -205px;
+  }
+}
+
+@media all and (max-width: 656px) {
+  .container1 {
+    max-width: 460px;
+  }
+  .container {
+    max-width: 460px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  .container1 {
+    max-width: 345px;
+  }
+  .container {
+    max-width: 345px;
+  }
+  .study-start ul {
+    text-align: center;
+  }
+  .study-start {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .study-start img {
+    width: 100%;
+  }
+  .block-2 ul li {
+    text-align: center;
+    padding-top: 0;
+  }
+  .what-will-you-learn {
+    width: auto;
+  }
+  .block-3 {
+    padding-top: 0;
+  }
+  .footer-pay-768 {
+    display: none;
+  }
+  .footer-pay-360 {
+    display: block;
+  }
+  .learn {
+    flex-direction: column;
+  }
+  .footer-logo {
+    top: 28px;
+  }
+  .artist img {
+    width: 317.57px;
+    height: 355.57px;
+    margin-top: 20px;
+  }
+  .curator {
+    flex-direction: column;
+  }
+  .how-we-teach {
+    flex-direction: column-reverse;
+  }
+  .block-5 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .training-program {
+    width: 100%;
+  }
+  .training-program select {
+    width: 328px;
+  }
+  .certif-img img {
+    width: 328px;
+    height: 221px;
+  }
+  .social-img {
+    margin-top: 145px;
+  }
+  .footer .footer-contacts {
+    margin-top: 0;
+  }
+  .footer .footer-programms {
+    margin-left: 0;
+  }
+  .footer {
+    background-image: url(img/footer768.png);
+    background-size: 196% 1417px;
+    margin-top: -77px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 1399px;
+  }
+  .footer-info div {
+    margin: 0;
+  }
+  .social-img ul {
+    gap: 10px;
+    margin-left: 0;
+    justify-content: left;
+  }
+  .block-3 button {
+    max-width: 337px;
+  }
+  .block-2 .container ul li {
+    text-align: left;
+  }
+}
+
+@media all and (min-width: 1146px) {
+  .footer-pay-360 {
+    display: none;
+  }
+}
