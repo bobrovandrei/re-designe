@@ -2741,3 +2741,16 @@ p {
   margin-bottom: 30px;
   color: rgba(43, 44, 84, 0.7);
 }
+.footer-info {
+  margin: 0;
+  margin-top: 60px;
+}
+.footer-info div {
+  margin: 0;
+}
+.footer-info p {
+  padding: 0;
+}
+.offcanvas2 {
+  width: 120px;
+}
