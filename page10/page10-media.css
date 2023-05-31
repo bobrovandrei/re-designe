@@ -2,6 +2,12 @@
   .container1 {
     max-width: 1480px;
   }
+  .container {
+    max-width: 1480px;
+  }
+  .block-1 {
+    background-size: 56%;
+  }
 }
 
 /*  */
@@ -21,6 +27,12 @@
   .container1 {
     max-width: 1330px;
   }
+  .container {
+    max-width: 1330px;
+  }
+  .block-1 {
+    background-size: 51%;
+  }
   .study-start {
     margin: 0;
     justify-content: center;
@@ -34,11 +46,27 @@
   .container1 {
     max-width: 1110px;
   }
+  .container {
+    max-width: 1110px;
+  }
+  .block-1 {
+    background-size: 44%;
+  }
+
   header p {
     font-size: 16px;
   }
   #dropdownMenuLink {
     font-size: 16px;
+  }
+  h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 120%;
+    color: #2b2c54;
+    margin-top: 62px;
   }
   nav ul {
     justify-content: space-evenly;
@@ -55,6 +83,10 @@
   .container1 {
     max-width: 900px;
   }
+  .contact ul li {
+    background: #ffffff;
+    width: 250px;
+  }
   h1 {
     font-size: 40px;
     background-size: 285px;
@@ -63,6 +95,16 @@
   }
   nav button img {
     padding: 0;
+  }
+  .contact h1 {
+    padding-top: 0;
+    margin-top: 32px;
+  }
+  .contact ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 531px;
   }
   nav button {
     padding: 0;
@@ -137,6 +179,13 @@
     background-size: 230px;
     background-position: center 36px;
   }
+  .contact h1 {
+    text-align: center;
+    background-position: top;
+  }
+  .contact {
+    margin: 0 auto;
+  }
   .block-7 h2 {
     padding: 0;
     margin-top: 80px;
@@ -144,6 +193,18 @@
   .training-program h2 {
     padding-bottom: 30px;
     background: url(img/Mask2.png) no-repeat 251px 0;
+  }
+  .block-1 {
+    background-position: bottom;
+    padding-bottom: 457px;
+    background-size: 58%;
+  }
+  .footer-logo {
+    background: url(img/Rectangle\ 39605.png) left 5px no-repeat;
+    width: 264px;
+    height: 190px;
+    position: absolute;
+    top: 118px;
   }
   .footer {
     margin-top: 0;
@@ -487,6 +548,15 @@
   .container {
     max-width: 460px;
   }
+  .contact ul {
+    flex-direction: column;
+    width: 328px;
+    align-items: center;
+  }
+  .contact {
+    margin-left: auto;
+    padding-bottom: 20px;
+  }
 }
 
 @media all and (max-width: 490px) {
@@ -571,6 +641,9 @@
     gap: 10px;
     margin-left: 0;
     justify-content: left;
+  }
+  .footer {
+    padding-top: 39px;
   }
 }
 
