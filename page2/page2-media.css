@@ -184,6 +184,11 @@
   .head-img {
     top: -205px;
   }
+  .dropbtn {
+    position: relative;
+    top: -4px;
+    font-size: 16px;
+  }
   .head-img img {
     margin-bottom: 19px;
   }

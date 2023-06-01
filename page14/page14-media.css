@@ -49,6 +49,11 @@
   .footer-logo {
     top: 85px;
   }
+  .dropbtn {
+    position: relative;
+    top: -4px;
+    font-size: 16px;
+  }
 
   @media all and (max-width: 1145px) {
     .container {
