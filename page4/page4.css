@@ -1845,3 +1845,7 @@ nav ul li a p :hover {
 .offcanvas-body ol {
   gap: 0;
 }
+
+.dropbtn {
+  width: auto;
+}
