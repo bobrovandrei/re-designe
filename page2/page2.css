@@ -198,10 +198,10 @@ body {
   top: 8px;
   padding: 65px 0px 0px 18px;
 }
-header ul li :hover {
+/* header ul li :hover {
   color: white;
   transition: 0.5s;
-}
+} */
 
 #select-program {
   font-family: "Montserrat";
@@ -285,7 +285,7 @@ h6 {
 
 nav {
   display: flex;
-  margin-bottom: 140px;
+  margin-bottom: 240px;
 }
 
 nav ul {
@@ -1070,28 +1070,6 @@ form button {
   color: #2b2c54;
   margin-bottom: 15px;
 }
-/* .block-7 ul li:nth-child(1) {
-  background: url("img2/star.png") no-repeat;
-}
-.block-7 ul li:nth-child(2) {
-  background: url("img2/het.png") no-repeat;
-}
-.block-7 ul li:nth-child(3) {
-  background: url("img2/book.png") no-repeat;
-}
-
-.block-7 ul li:nth-child(4) {
-  background: url("img2/blok.png") no-repeat;
-}
-.block-7 ul li:nth-child(5) {
-  background: url("img2/peopl.png") no-repeat;
-}
-.block-7 ul li:nth-child(6) {
-  background: url("img2/pk.png") no-repeat;
-}
-.block-7 ul li:nth-child(7) {
-  background: url("img2/lamp.png") no-repeat;
-} */
 .block-7 ul li:nth-child(8) {
   width: 540px;
 }
@@ -1232,14 +1210,10 @@ option {
   text-decoration: none;
 }
 
-/* footer {
-  background-color: rgba(89, 91, 169, 1);
-} */
-
 /* block-1 */
 
 body {
-  background: url(img2/Vector221.png) no-repeat;
+  background: url(img2/Vector\ 21.png) no-repeat;
   background-position: right 0;
 }
 
@@ -1291,6 +1265,7 @@ nav p {
 }
 .block-1 {
   color: white;
+  margin-top: -100px;
 }
 .block-1 ul li:nth-child(1) {
   background: url("img2/forKids\ 1.jpg") no-repeat;
@@ -1372,14 +1347,6 @@ nav p {
   margin: 0;
   /* margin-top: 30px; */
 }
-/* .block-2 ul li:nth-child(1) {
-  background: url("img2/forJun 1.jpg") no-repeat;
-  margin: 50px 15px 0 0;
-}
-.block-2 ul li:nth-child(2) {
-  background: url("img2/forJun 2.jpg") no-repeat;
-  margin: 50px 0 0 15px;
-} */
 .block-2 h5 {
   font-size: 18px;
   color: white;
@@ -1445,4 +1412,149 @@ nav p {
 
 .block-7 {
   background: url(img2/Vector\ 23.png) no-repeat;
+}
+
+/* drop menu */
+
+.dropdown-menu {
+  position: absolute;
+  inset: 20px auto auto -85px;
+  margin: 0px;
+  transform: translate(0px, 23px);
+  width: 290px;
+  border-radius: 0;
+  border: none;
+}
+.dropdown-menu.show {
+  width: 500px;
+}
+.dropdown-menu.show li :hover {
+  background-color: #8062f2;
+}
+
+.dropbtn {
+  border: none;
+  background: no-repeat;
+  margin: 0;
+  padding: 0;
+  margin-top: -19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: rgba(43, 44, 84, 0.7);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: url(img2/drop.png) no-repeat;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 27px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+}
+.dropdown-content a {
+  color: black;
+  margin-bottom: 16px;
+  text-decoration: none;
+  display: block;
+  padding-left: 15px;
+}
+
+.dropdown-content a :hover {
+  background: #8062f2;
+}
+
+.dropdown a:hover {
+  background-color: #8062f2;
+}
+
+.show {
+  display: block;
+  width: 279px;
+  height: 232px;
+  padding-top: 30px;
+  left: -48px;
+}
+/*  */
+
+/* off menu */
+#offcanvasRight {
+  width: 296px;
+  height: 515px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 39px;
+  margin-top: 14px;
+}
+.offcanvas-body p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2c54;
+  list-style-type: none;
+}
+.offcanvas-body ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.offcanvas-body ol li p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2b2c54;
+}
+.offcanvas-body button {
+  width: 176px;
+  height: 52px;
+  background-color: #f6f4fe;
+  display: block;
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 0;
+  letter-spacing: 0.02em;
+  text-shadow: none;
+  color: #6743ef;
+}
+
+#dropdownMenuButton1 {
+  border: none;
+  background-color: none;
+  box-shadow: none;
+  display: flex;
+}
+
+nav ul li a p :hover {
+  color: #0b5ed7;
 }

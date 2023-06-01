@@ -2709,3 +2709,148 @@ h5 {
 .footer h5 {
   text-align: left;
 }
+
+/* drop menu */
+
+.dropdown-menu {
+  position: absolute;
+  inset: 20px auto auto -85px;
+  margin: 0px;
+  transform: translate(0px, 23px);
+  width: 290px;
+  border-radius: 0;
+  border: none;
+}
+.dropdown-menu.show {
+  width: 500px;
+}
+.dropdown-menu.show li :hover {
+  background-color: #8062f2;
+}
+
+.dropbtn {
+  border: none;
+  background: no-repeat;
+  margin: 0;
+  padding: 0;
+  margin-top: -19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: rgba(43, 44, 84, 0.7);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: url(img/drop.png) no-repeat;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 27px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(43, 44, 84, 0.7);
+}
+.dropdown-content a {
+  color: black;
+  margin-bottom: 16px;
+  text-decoration: none;
+  display: block;
+  padding-left: 15px;
+}
+
+.dropdown-content a :hover {
+  background: #8062f2;
+}
+
+.dropdown a:hover {
+  background-color: #8062f2;
+}
+
+.show {
+  display: block;
+  width: 279px;
+  height: 232px;
+  padding-top: 30px;
+  left: -48px;
+}
+/*  */
+
+/* off menu */
+#offcanvasRight {
+  width: 296px;
+  height: 515px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 39px;
+  margin-top: 14px;
+}
+.offcanvas-body p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2c54;
+  list-style-type: none;
+}
+.offcanvas-body ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.offcanvas-body ol li p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2b2c54;
+}
+.offcanvas-body button {
+  width: 176px;
+  height: 52px;
+  background-color: #f6f4fe;
+  display: block;
+  border: 1px solid #6743ef;
+  box-shadow: 0px 4px 0px #6743ef;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 0;
+  letter-spacing: 0.02em;
+  text-shadow: none;
+  color: #6743ef;
+}
+
+#dropdownMenuButton1 {
+  border: none;
+  background-color: none;
+  box-shadow: none;
+  display: flex;
+}
+
+nav ul li a p :hover {
+  color: #0b5ed7;
+}

@@ -29,50 +29,46 @@
     <header>
         <div class="container1">
             <nav>
-                <img src="..\page1/img/logo.svg" alt="logo">
+                <img src="img/logo.svg" alt="logo">
 
 
 
                 <ul>
                     <li>
                         <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Главнaя
-                            </a>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">
-                                        <p>Программы для детей <br> и подростков</p>
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        <p>Программы для взрослых</p>
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        <p>Online-обучение</p>
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        <p>Программы на каникулах</p>
-                                    </a></li>
-                            </ul>
+                            <button onclick="myFunction()" class="dropbtn">Программы &#8595;</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="../page2/index.html">
+                                    <p>Программы для детей <br> и подростков</p>
+                                </a>
+                                <a href="#about">
+                                    <p>Программы для взрослых</p>
+                                </a>
+                                <a href="#contact">
+                                    <p>Online-обучение</p>
+                                </a>
+                                <a href="#contact">
+                                    <p>Программы на каникулах</p>
+                                </a>
+                            </div>
                         </div>
-
                     </li>
-                    <li><a href="#">
+
+                    <li><a href="../page6/index.html">
                             <p>Куда поступать на дизайн</p>
                         </a></li>
                     <li><a href="#">
                             <p>Центр карьеры</p>
                         </a></li>
-                    <li><a href="#">
+                    <li><a href="#contacts">
                             <p>Контакты</p>
                         </a></li>
                 </ul>
 
                 <div class="offcanvas2">
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                        <img src="img/Frame 6224.png" alt=""></button>
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="img/Frame6224.png"
+                            alt=""></button>
 
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
@@ -86,26 +82,25 @@
                             <ol>
                                 <li>
                                     <div class="dropdown">
-                                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                             <p>Программы</p>
-                                        </a>
-
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item"
+                                                    href="https://bobrovandrei.github.io/re-designe/page2/index.html">
                                                     <p>Программы для детей <br> и подростков</p>
                                                 </a></li>
                                             <li><a class="dropdown-item" href="#">
                                                     <p>Программы для взрослых</p>
                                                 </a></li>
-                                            <li><a class="dropdown-item" href="#">
-                                                    <p>Online-обучение</p>
-                                                </a></li>
+                                            <li><a class="dropdown-item" href="#">Online-обучение</a></li>
                                             <li><a class="dropdown-item" href="#">
                                                     <p>Программы на каникулах</p>
                                                 </a></li>
                                         </ul>
                                     </div>
+
                                 </li>
                                 <li><a href="#">
                                         <p>Куда поступать на дизайн</p>
@@ -473,64 +468,64 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="container">
-        <ul class="social">
-            <li><a href="#"><img src="img/social/instagramm.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/facebook.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/vk.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/youtube.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/tic-toc.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/klass.svg" alt=""></a></li>
-        </ul>
-        <div class="footer-info">
-            <div class="info-for-our">
-                <h4>
-                    О нас
-                </h4>
-                <p>
-                    Академия визуальных коммуникаций RE:DESIGN — первое в Беларуси частное учебное заведение с
-                    комплексным образованием в сфере дизайна для детей и взрослых.
-                </p>
-            </div>
-            <div class="footer-menu">
-                <h4>Меню</h4>
-                <p>Главаня</p>
-                <p>Куда поступать на дизайн</p>
-                <p>Центр карьеры</p>
-                <p>Блог</p>
-                <p>Контакты</p>
-                <p>Оплата</p>
-            </div>
-            <div class="footer-programms">
-                <h4>Программы</h4>
-                <p>Программа для детей и подростков</p>
-                <p>Программа для взрослых</p>
-                <p>Онлайн обучение</p>
-                <p>Программы на каникулах</p>
-            </div>
-            <div class="footer-contacts">
-                <h4>контакты</h4>
 
-                <h5>Адрес</h5>
-                <p><img src="img/contacts/coolicon.svg" alt=""> г.Минск. пр, Независимости, 58В, офис 106</p>
+    <ul class="social">
+        <li><a href="#"><img src="img/social/instagramm.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/social/facebook.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/social/vk.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/social/youtube.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/social/tic-toc.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/social/klass.svg" alt=""></a></li>
+    </ul>
+    <div class="footer-info">
+        <div class="info-for-our">
+            <h4>
+                О нас
+            </h4>
+            <p>
+                Академия визуальных коммуникаций RE:DESIGN — первое в Беларуси частное учебное заведение с
+                комплексным образованием в сфере дизайна для детей и взрослых.
+            </p>
+        </div>
+        <div class="footer-menu">
+            <h4>Меню</h4>
+            <p>Главаня</p>
+            <p>Куда поступать на дизайн</p>
+            <p>Центр карьеры</p>
+            <p>Блог</p>
+            <p>Контакты</p>
+            <p>Оплата</p>
+        </div>
+        <div class="footer-programms">
+            <h4>Программы</h4>
+            <p>Программа для детей и подростков</p>
+            <p>Программа для взрослых</p>
+            <p>Онлайн обучение</p>
+            <p>Программы на каникулах</p>
+        </div>
+        <div class="footer-contacts">
+            <h4>контакты</h4>
 
-                <h5>Телефон</h5>
-                <p><img src="img/contacts/noun_Mail.svg" alt="">А1: +375 29 66 00 452</p>
-                <p>МТС: +375 33 66 00 452</p>
+            <h5>Адрес</h5>
+            <p><img src="img/contacts/coolicon.svg" alt=""> г.Минск. пр, Независимости, 58В, офис 106</p>
 
-                <h5>Email</h5>
-                <p><img src="img/contacts/phone.svg" alt="">manager@re-design.by</p>
+            <h5>Телефон</h5>
+            <p><img src="img/contacts/noun_Mail.svg" alt="">А1: +375 29 66 00 452</p>
+            <p>МТС: +375 33 66 00 452</p>
 
-            </div>
+            <h5>Email</h5>
+            <p><img src="img/contacts/phone.svg" alt="">manager@re-design.by</p>
+
         </div>
     </div>
-    </div>  -->
+    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <script src="page1.js"></script>
+    <script src="page3.js"></script>
 </body>
 
 </html>

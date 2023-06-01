@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 article {
   margin-top: -80px;
@@ -17,7 +16,6 @@ header {
 
 .offcanvas2 {
   position: relative;
-  /* background-color: transparent; */
   top: 0;
   right: 0;
   visibility: visible;
@@ -51,9 +49,7 @@ header {
 .dropdown-menu p:hover {
   background: #8062f2;
 }
-/* .dropdown-menu .show {
-  transform: translate(0px, 20px);
-} */
+
 .offcanvas2 .dropdown-toggle::after {
   margin-top: 8px;
   color: rgba(43, 44, 84, 0.7);
@@ -109,11 +105,6 @@ header {
   color: rgba(255, 255, 255, 0.6);
   text-shadow: none;
 }
-
-/* .dropbtn:hover,
-.dropbtn:focus {
-  background-color: #2980b9;
-} */
 
 .dropdown {
   position: relative;
