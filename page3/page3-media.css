@@ -61,6 +61,12 @@
     padding-top: 30px;
     background-position: bottom;
   }
+  .footer-pay {
+    display: none;
+  }
+  .footer-pay-360 {
+    display: none;
+  }
   nav button img {
     padding: 0;
   }
