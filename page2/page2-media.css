@@ -260,6 +260,9 @@
   nav button {
     display: none;
   }
+  .dropbtn {
+    font-size: 13px;
+  }
   .card3:nth-child(5) {
     display: none;
   }

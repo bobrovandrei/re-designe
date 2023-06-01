@@ -90,6 +90,9 @@
   .container1 {
     max-width: 900px;
   }
+  .dropbtn {
+    font-size: 13px;
+  }
   .block {
     max-width: 900px;
     margin: 0 auto;

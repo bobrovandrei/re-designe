@@ -552,6 +552,9 @@
   .container1 {
     max-width: 900px;
   }
+  .dropbtn {
+    font-size: 13px;
+  }
   h1 {
     font-size: 40px;
     background-size: 285px;

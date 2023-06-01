@@ -88,6 +88,9 @@
   .container1 {
     max-width: 900px;
   }
+  .dropbtn {
+    font-size: 13px;
+  }
   .contact ul li {
     background: #ffffff;
     width: 250px;

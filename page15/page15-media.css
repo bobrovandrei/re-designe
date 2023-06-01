@@ -87,6 +87,9 @@
   nav button img {
     padding: 0;
   }
+  .dropbtn {
+    font-size: 13px;
+  }
   .block-3 button {
     max-width: 843px;
   }
