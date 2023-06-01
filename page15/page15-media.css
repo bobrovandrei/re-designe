@@ -89,6 +89,7 @@
   }
   .dropbtn {
     font-size: 13px;
+    top: -6px;
   }
   .block-3 button {
     max-width: 843px;
