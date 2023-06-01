@@ -130,6 +130,7 @@
   }
   .offcanvas2 {
     display: block;
+    width: 120px;
   }
   h1 {
     font-size: 34px;
@@ -395,7 +396,7 @@
   .footer {
     background-image: url(img/footer768.png);
     background-size: 100% 920px;
-    margin-top: -77px;
+    margin-top: 15px;
     padding-left: 40px;
     padding-right: 40px;
     height: 920px;
@@ -544,6 +545,8 @@
     width: 328px;
   }
   .certif-img img {
+    justify-content: center;
+    display: flex;
     width: 328px;
     height: 221px;
   }
@@ -557,12 +560,13 @@
     margin-left: 0;
   }
   .footer {
-    background-image: url(img/footer768.png);
-    background-size: 196% 1417px;
-    margin-top: -77px;
+    background: url(img/footer360.png) no-repeat;
+    margin-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    height: 1399px;
+    /* height: 1399px; */
+    background-size: 100% 100%;
+    background-position: center;
   }
   .footer-info div {
     margin: 0;
