@@ -2812,3 +2812,53 @@ h1 {
 nav ul li a p :hover {
   color: #0b5ed7;
 }
+
+/* offcanvas */
+
+#offcanvasRight {
+  left: auto;
+  padding: 30px;
+  width: 296px;
+  height: 515px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 39px;
+  margin-top: 14px;
+}
+.offcanvas-header h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2c54;
+}
+.offcanvas-header .btn-close {
+  background: url(img/close.png) no-repeat;
+  padding-right: 20px;
+  padding-bottom: 26px;
+  opacity: 1;
+  box-shadow: none;
+}
+.offcanvas-body {
+  padding: 0;
+  margin-top: 20px;
+}
+.modal-backdrop.show {
+  opacity: 0;
+}
+#offcanvasRight {
+  left: auto;
+  padding: 30px;
+}
+#dropdownMenuButton1 {
+  background: transparent;
+  margin: 0;
+  height: auto;
+}
+.offcanvas-body ol li p {
+  margin-bottom: 30px;
+}
+.offcanvas-body ol {
+  gap: 0;
+}
